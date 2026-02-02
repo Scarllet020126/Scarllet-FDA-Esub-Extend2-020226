@@ -1,0 +1,299 @@
+{
+  "dataset_version": "1.0.0",
+  "generated_at_utc": "2026-02-02T00:00:00Z",
+  "cases": [
+    {
+      "case_id": "CASE_A",
+      "case_name": "Mock Case A（展延案/一般醫材/輸入/第二等級）",
+      "tags": ["TFDA", "展延案", "一般醫材", "輸入", "第二等級"],
+      "application": {
+        "doc_no": "衛授食藥字第1130001234號",
+        "e_no": "MDE-A-0001",
+        "apply_date": "2025-01-20",
+        "case_type": "許可證有效期限屆至後六個月內重新申請",
+        "device_category": "一般醫材",
+        "case_kind": "展延案",
+        "origin": "輸入",
+        "product_class": "第二等級",
+        "similar": "有",
+        "replace_flag": "否",
+        "prior_app_no": "1120719945 變更案",
+        "name_zh": "一次性無菌導尿管",
+        "name_en": "Sterile Single-Use Urinary Catheter",
+        "indications": "供臨床尿液引流使用，詳如核定中文說明書。",
+        "spec_comp": "PVC/矽膠材質，多種尺寸，詳如核定中文說明書。",
+        "main_cat": "J.一般醫院及個人使用裝置",
+        "item_code": "J.1234",
+        "item_name": "導尿管",
+        "uniform_id": "24567890",
+        "firm_name": "宏遠醫材股份有限公司",
+        "firm_addr": "台北市中山區XX路100號10樓",
+        "resp_name": "王小明",
+        "contact_name": "陳怡君",
+        "contact_tel": "02-2345-6789",
+        "contact_fax": "02-2345-6790",
+        "contact_email": "reg@hongyuan-med.example",
+        "confirm_match": true,
+        "cert_raps": false,
+        "cert_ahwp": true,
+        "cert_other": "GDP 內訓證明（2024）",
+        "manu_type": "單一製造廠",
+        "manu_name": "ACME Medical Devices Inc.",
+        "manu_country": "UNITED STATES",
+        "manu_addr": "1234 Device Ave, Irvine, CA, USA",
+        "manu_note": "最終組裝與滅菌由同廠執行。",
+        "auth_applicable": "適用",
+        "auth_desc": "原廠授權登記書有效，詳附件。",
+        "cfs_applicable": "適用",
+        "cfs_desc": "CFS 影本，正本於前案留存。",
+        "qms_applicable": "適用",
+        "qms_desc": "QMS 證明仍有效。",
+        "similar_info": "市場既有同類導尿管產品，差異比較表待補。",
+        "labeling_info": "中文說明書與標籤版本一致。",
+        "tech_file_info": "結構與材料未變更。",
+        "preclinical_info": "無新增測試；引用既有生物相容性與滅菌驗證摘要。",
+        "preclinical_replace": "",
+        "clinical_just": "不適用",
+        "clinical_info": ""
+      },
+      "review_guidance_zh": "# 展延案件形式審查指引（Mock A）\n## 1. 核心原則\n- 展延案重點在於：**許可證資訊一致性**、**文件有效性**、**關鍵證明（CFS/授權/QMS）仍有效且可追溯**。\n\n## 2. 必檢附件（適用時）\n1. 許可證有效期間展延申請書：須完整填列並簽章（如系統要求）。\n2. 原許可證：須可辨識許可證字號、品名、製造廠、有效期限。\n3. 標籤/中文核定說明書/包裝核定本：版本須與許可證系統一致；若更完整須更新系統檔。\n4. 出產國製售證明（CFS）：須載明出具日期；影本需可追溯正本留存案號。\n5. 原廠授權登記書：須在有效期內；影本需可追溯正本留存案號。\n6. QMS/QSD：須在有效期內；需可辨識證書範圍與製造廠一致。\n7. 器材商許可執照：名稱/地址/負責人需與申請資料一致。\n\n## 3. 常見缺失\n- 影本未註明正本留存資訊、未填出具日期、文件狀態作廢/註銷仍被引用、標籤版本不一致。\n",
+      "extension_packet_seed": {
+        "default_applicability": {
+          "S1": "適用",
+          "S2": "適用",
+          "S2b": "適用",
+          "S3": "適用",
+          "S4": "適用",
+          "S5": "適用",
+          "S6": "不適用",
+          "S7": "適用",
+          "S8": "不適用",
+          "S9": "不適用"
+        },
+        "seed_files": {
+          "S3": [
+            {
+              "file_name": "CFS_影本.pdf",
+              "description": "出產國製售證明影本",
+              "doc_type": "copy",
+              "issue_date_raw": "111/11/10",
+              "reference_case_no": "1110815922",
+              "status_flag": "active",
+              "notes": "正本在前案留存"
+            }
+          ],
+          "S4": [
+            {
+              "file_name": "原廠授權_影本.pdf",
+              "description": "原廠授權登記書影本",
+              "doc_type": "copy",
+              "issue_date_raw": "112/07/27",
+              "reference_case_no": "1120719945 變更案",
+              "status_flag": "active",
+              "notes": "正本於變更案留存"
+            }
+          ],
+          "S5": [
+            {
+              "file_name": "QMS_正本.pdf",
+              "description": "QMS/QSD 證明文件",
+              "doc_type": "original",
+              "issue_date_raw": "111/10/12",
+              "reference_case_no": "",
+              "status_flag": "active",
+              "notes": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "CASE_B",
+      "case_name": "Mock Case B（IVD/第三等級/變更案）",
+      "tags": ["TFDA", "IVD", "第三等級", "變更案"],
+      "application": {
+        "doc_no": "衛授食藥字第1130002222號",
+        "e_no": "MDE-B-0002",
+        "apply_date": "2025-02-05",
+        "case_type": "一般申請案",
+        "device_category": "體外診斷器材(IVD)",
+        "case_kind": "變更案",
+        "origin": "輸入",
+        "product_class": "第三等級",
+        "similar": "有",
+        "replace_flag": "否",
+        "prior_app_no": "1110815922",
+        "name_zh": "肌酸酐試驗系統",
+        "name_en": "Creatinine Assay System",
+        "indications": "定量測定人類血清中肌酸酐濃度，用於腎功能評估。",
+        "spec_comp": "試劑盒含校正品與控制品，詳如技術檔案。",
+        "main_cat": "A.臨床化學及臨床毒理學",
+        "item_code": "A.1225",
+        "item_name": "肌酸酐試驗系統",
+        "uniform_id": "12345678",
+        "firm_name": "新星診斷科技有限公司",
+        "firm_addr": "新北市板橋區YY路88號8樓",
+        "resp_name": "林志強",
+        "contact_name": "黃佩珊",
+        "contact_tel": "02-8765-4321",
+        "contact_fax": "",
+        "contact_email": "qa@novadiag.example",
+        "confirm_match": true,
+        "cert_raps": true,
+        "cert_ahwp": false,
+        "cert_other": "",
+        "manu_type": "單一製造廠",
+        "manu_name": "Nova Diagnostics GmbH",
+        "manu_country": "EU (Member State)",
+        "manu_addr": "Musterstrasse 1, Berlin, Germany",
+        "manu_note": "貼標由同廠完成。",
+        "auth_applicable": "適用",
+        "auth_desc": "授權文件版本更新。",
+        "cfs_applicable": "適用",
+        "cfs_desc": "CFS 出具日期待補。",
+        "qms_applicable": "適用",
+        "qms_desc": "ISO 13485 證書附後。",
+        "similar_info": "與前案同產品。",
+        "labeling_info": "說明書新增警語，待確認是否需變更核定。",
+        "tech_file_info": "變更：新增測試方法敘述。",
+        "preclinical_info": "分析性能資料補充中。",
+        "preclinical_replace": "",
+        "clinical_just": "不適用",
+        "clinical_info": ""
+      },
+      "review_guidance_zh": "# IVD/變更/展延相關文件審查重點（Mock B）\n## 必查一致性\n- 產品中文/英文名稱、製造廠名稱/地址、器材商資訊必須與原許可證一致（除核准變更項目外）。\n\n## 文件有效性\n- CFS / 授權 / QMS 需在有效期內，並能清楚追溯出具日期與證書範圍。\n\n## 標籤/說明書\n- 若變更了警語、適應症、使用限制或關鍵性能聲明，需確認是否需另案變更或重送核定之範圍。\n\n## 常見缺漏\n- 未附出具日期、影本無可追溯資訊、僅上傳作廢版本、系統內說明書未更新。\n",
+      "extension_packet_seed": {
+        "default_applicability": {
+          "S1": "適用",
+          "S2": "適用",
+          "S2b": "適用",
+          "S3": "適用",
+          "S4": "適用",
+          "S5": "適用",
+          "S6": "不適用",
+          "S7": "適用",
+          "S8": "不適用",
+          "S9": "不適用"
+        },
+        "seed_files": {
+          "S2b": [
+            {
+              "file_name": "中文說明書_核定本.pdf",
+              "description": "中文核定說明書（可能含新增警語）",
+              "doc_type": "copy",
+              "issue_date_raw": "",
+              "reference_case_no": "",
+              "status_flag": "active",
+              "notes": "請確認系統內是否需更新"
+            }
+          ],
+          "S3": [
+            {
+              "file_name": "CFS.pdf",
+              "description": "出產國製售證明",
+              "doc_type": "copy",
+              "issue_date_raw": "",
+              "reference_case_no": "1110815922",
+              "status_flag": "active",
+              "notes": "出具日期待補"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "CASE_C",
+      "case_name": "Mock Case C（國產/第二等級/展延案；多處待補）",
+      "tags": ["TFDA", "國產", "第二等級", "展延案", "高缺漏示範"],
+      "application": {
+        "doc_no": "衛授食藥字第1130003333號",
+        "e_no": "MDE-C-0003",
+        "apply_date": "2025-03-01",
+        "case_type": "一般申請案",
+        "device_category": "一般醫材",
+        "case_kind": "展延案",
+        "origin": "國產",
+        "product_class": "第二等級",
+        "similar": "無",
+        "replace_flag": "是",
+        "prior_app_no": "",
+        "name_zh": "低周波治療器",
+        "name_en": "Low Frequency Therapy Device",
+        "indications": "用於肌肉舒緩與疼痛緩解（非治療性宣稱）。",
+        "spec_comp": "主機、電極貼片、導線；多模式輸出。",
+        "main_cat": "O.物理醫學科學",
+        "item_code": "O.5678",
+        "item_name": "電刺激治療器",
+        "uniform_id": "87654321",
+        "firm_name": "康健醫電股份有限公司",
+        "firm_addr": "台中市西屯區ZZ路66號6樓",
+        "resp_name": "張雅雯",
+        "contact_name": "周承恩",
+        "contact_tel": "04-2233-4455",
+        "contact_fax": "",
+        "contact_email": "reg@healthtron.example",
+        "confirm_match": false,
+        "cert_raps": false,
+        "cert_ahwp": false,
+        "cert_other": "",
+        "manu_type": "單一製造廠",
+        "manu_name": "康健醫電股份有限公司（自製）",
+        "manu_country": "TAIWAN， ROC",
+        "manu_addr": "台中市西屯區ZZ路66號6樓",
+        "manu_note": "自製自售。",
+        "auth_applicable": "不適用",
+        "auth_desc": "",
+        "cfs_applicable": "不適用",
+        "cfs_desc": "",
+        "qms_applicable": "適用",
+        "qms_desc": "QMS 文件待補。",
+        "similar_info": "無類似品；需補充市場比較與風險控制。",
+        "labeling_info": "中文說明書草稿尚未上傳。",
+        "tech_file_info": "技術檔案待補：電氣安全/EMC。",
+        "preclinical_info": "替代條款說明待補。",
+        "preclinical_replace": "主張引用同系列產品測試，需提供對照與合理性。",
+        "clinical_just": "不適用",
+        "clinical_info": ""
+      },
+      "review_guidance_zh": "# 國產一般醫材展延文件自檢要點（Mock C）\n## 必附/常附文件\n- 展延申請書、原許可證、標籤/中文核定說明書或包裝核定本\n- 器材商許可執照（製造/販賣）\n- QMS/QSD（若法規/等級要求）\n\n## 特別注意\n- 若申請資料顯示「確認與器材商證照資訊相符」未勾選，通常會被要求補正或澄清。\n- 標籤/說明書若缺，屬常見重大缺漏。\n\n## 作廢/註銷\n- 上傳文件若為作廢版本，須同時提供有效版本並說明差異與原因。\n",
+      "extension_packet_seed": {
+        "default_applicability": {
+          "S1": "適用",
+          "S2": "適用",
+          "S2b": "適用",
+          "S3": "不適用",
+          "S4": "不適用",
+          "S5": "適用",
+          "S6": "不適用",
+          "S7": "適用",
+          "S8": "不明",
+          "S9": "不適用"
+        },
+        "seed_files": {
+          "S1": [
+            {
+              "file_name": "展延申請書.pdf",
+              "description": "許可證有效期間展延申請書",
+              "doc_type": "copy",
+              "issue_date_raw": "",
+              "reference_case_no": "",
+              "status_flag": "active",
+              "notes": ""
+            }
+          ],
+          "S7": [
+            {
+              "file_name": "器材商許可執照.pdf",
+              "description": "製造/販賣業許可執照",
+              "doc_type": "copy",
+              "issue_date_raw": "",
+              "reference_case_no": "",
+              "status_flag": "active",
+              "notes": ""
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
